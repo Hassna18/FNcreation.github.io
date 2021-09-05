@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Advent Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+li{
+	list-style-type: none;
+	float: right;
+	font-size: 1.3em;
+}
+h2{
+	text-transform: uppercase;
+	text-align : center;
+	padding-top: 5px;
+	font-size: 2.2em;
+	color: #660022;
+	font-weight: bold;
+}
+#textIntro{
+	text-align: center;
+	color: #876C5F;
+	font-size: 2em;
+}
+nav {
+	overflow: hidden;
+	background-color: #FFFAE1;
+	position: absolute;
+	width: 100%;
+	opacity: 0.9;
+}
+header li a {
+	text-decoration: none;
+	color: #660022;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+header li a:hover{
+color: gold;
+}
+#logo{
+	font-family: 'Dancing Script',cursive;
+	float: left;
+	font-size: 1.5em;	
+}
+#imagePrincipale {
+	padding-top: 60px;
+	background: url(Bracelets/artem-beliaikin-NnD1jMzybbE-unsplash.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+ h1 {
+	font-family: 'Dancing Script',cursive;
+	text-align: center;
+	color: antiquewhite;
+	font-size: 6em;
+	margin-top: 100px;
+	text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+	height: 1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: #FFFAE1;
+	box-shadow: 1px 3px 2px black;
+}
+h3 {
+	text-align: center;
+	color: #FFCCB3;
+	font-weight: bolder;
+	font-size: 3em;
+	font-family: 'Dancing Script', sans-serif;
+	text-shadow: 1px 3px 2px black;
+}
+#Presentation{
+	background-color: #FFFAE1;
+	padding: 10px 0px 100px 0px;
+}
+#textIntro{
+	padding: 0px 20%;
+}
+#prestation{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 30px 7%;
+}
+.imagesPrestation h4{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color:#4D0026;
+	font-size: 1.8em;
+	margin: 15px;
+	font-weight: bold ;
+}
+.imagesPrestation img {
+	border-radius: 30px;
+	box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.imagesPrestation img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#plus{
+	background-color: #F9F6CC;
+	padding: 1px 2%;
+}
+#ess{
+	height: 1400px;
+	display: flex;
+	justify-content:space-evenly;
+	height: 100vh;
+}
+#ess p {
+	text-align: left;
+	color: #876C5F;
+	font-size: 2em;
+	text-align-last:center;	
+}
+.Images{
+	display: flex;
+	animation-duration: 15s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;
+}
+#caroussel {
+	width: 500px;
+	overflow: hidden;
+}
+@keyframes mesImages{
+	0%{
+		transform: translateX(0);
+	}
+	25%{
+		transform: translateX(-500px);
+	}
+	50%{
+		transform: translateX(-1000px);
+	}
+	75%{
+		transform: translateX(-1500px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+footer {	
+	background: url(Bracelets/pexels-pixabay-220116.jpg);
+	background-size: cover;
+	color: #FFFAE1;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+footer h2{
+	color: goldenrod;
+}
+input, textarea, button {
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	resize: none;
+	font-family: 'Advent Pro', sans-serif;
+	border-radius: 8px;
+}
+textarea{
+	height: 120px;
+}
+button{
+	font-size: 1.5em;
+	background-color: #FFFAE1;
+}
+button:hover{
+	background-color: goldenrod;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+#unTrait{
+	height: 1px;
+	width: 75%;
+	background-color: #FFFAE1;
+	margin: 60px auto;
+}
+#copyrightEtIcons {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0 10%;
+}
+#copyright{
+	width: 50%;
+	text-align: left;
+	color: #FFFAE1;
+}
+#icon {
+	width: 70%;
+	text-align: right;
+}
+#icon a{
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 2.5em;
+	color: #FFCCB3;
+}
+#icon a:hover{
+	transform: scale(1.5);
+	transition: 0.1s;
+}
+#topBtn{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	font-size: 22px;
+	width: 40px;
+	height: 40px;
+	background-color: goldenrod;
+	color:goldenrod;
+	border: none;
+	cursor: pointer;
+}
